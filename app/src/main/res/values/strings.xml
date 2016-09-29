@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">CoderDojo</string>
+    <string name="btnLogin">Ingresar</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="register">Registrarse</string>
+    <string name="remember">Recordarme</string>
+    <string name="txtRegister">¿Queres unirtenos? Registrate AQUI</string>
+    <string name="forgotPassword">¿Olvidaste tu contraseña?</string>
+
+    <string name="name">Nombre</string>
+    <string name="lastname">Apellido</string>
+    <string name="mail">Email</string>
+    <string name="birthday">Fecha de nacimiento</string>
+    <string name="repPassword">Repetir constraseña</string>
+
+    <string name="findChildren">Nombre o usuario de tus hijos</string>
+    <string name="findSibling">Nombre o usuario de tus hermanos</string>
+
+    <string name="welcome">Bienvenido </string>
+
+    <string name="event">Eventos</string>
+    <string name="nextEvent">Proximo Evento</string>
+
+
+    <string name="volunteer">¡Quiero ser voluntario!</string>
+    <string name="xp">Experiencia previa</string>
+    <string name="jobVolunteer">Puedes asistir a las reuniones del Dojo y ayudar por un par de horas.
+Si eres un programador experimentado, puedes compartir tu conocimiento con los jovenes que estan ansiosos por aprender, pero si no tienes experiencia tecnica, ¡no hay problema! Necesitamos personas que nos puedan ayudar con los registros, actualizando las redes sociales, haciendo panfletos, etc. ¡Toda ayuda es bien recibida!
+Descubre mas sobre el voluntariado aqui.</string>
+
+</resources>
