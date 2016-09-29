@@ -16,7 +16,7 @@
         android:id="@+id/logoComplete"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:src="@drawable/logo-completo"
+        android:src="@drawable/logo_completo"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
