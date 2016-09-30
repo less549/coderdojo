@@ -12,35 +12,6 @@
     tools:context="com.example.less.coderdojo.LoginActivity"
     android:background="@color/background">
 
-    <ImageView
-        android:id="@+id/logoComplete"
-        android:layout_height="125dp"
-        android:layout_width="450dp"
-        android:src="@drawable/logo_completo"
-        android:scaleType="fitStart"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:id="@+id/etPass"
-        android:text="EditText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:layout_marginBottom="24dp"
-        android:layout_above="@+id/btnLogin"
-        android:layout_centerHorizontal="true" />
-
-    <EditText
-        android:id="@+id/etUser"
-        android:text="EditText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/etPass"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="42dp" />
-
     <TextView
         android:id="@+id/txtRegister"
         android:layout_width="wrap_content"
@@ -50,13 +21,42 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
-    <Button
-        android:id="@+id/btnLogin"
+    <ImageView
+        android:id="@+id/logoComplete"
+        android:layout_height="100dp"
+        android:layout_width="300dp"
+        android:src="@drawable/logo_completo"
+        android:scaleType="fitStart"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" />
+
+    <EditText
+        android:id="@+id/etUser"
+        android:hint="@string/user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btnLogin"
-        android:layout_marginBottom="11dp"
-        android:layout_above="@+id/checkBox"
+        android:layout_marginTop="67dp"
+        android:layout_below="@+id/logoComplete"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:hint="@string/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginBottom="22dp"
+        android:layout_above="@+id/forgotPass"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remember"
+        android:id="@+id/checkBox"
+        android:layout_marginBottom="18dp"
+        android:layout_above="@+id/txtRegister"
         android:layout_centerHorizontal="true" />
 
     <TextView
@@ -64,17 +64,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/forgotPassword"
-        android:layout_above="@+id/txtRegister"
+        android:layout_above="@+id/btnLogin"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="17dp" />
+        android:layout_marginBottom="19dp" />
 
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/remember"
-        android:id="@+id/checkBox"
-        android:layout_marginBottom="23dp"
-        android:layout_alignBottom="@+id/forgotPass"
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:text="@string/btnLogin"
+        android:layout_above="@+id/checkBox"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
